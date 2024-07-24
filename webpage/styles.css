@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+   background-color: #333;
+   color: #fff;
+   padding: 1rem 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    color: #fff;
+    text-decoration: 2rem 0;
+}
+
+#home {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+}
+
+#about {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+#about h2 {
+    text-align: center;
+}
+
+#about ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+#projects {
+    padding: 2rem;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+.project {
+    background-color: #e4e4e4;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form label {
+    margin: 0,5rem 0 0.2rem;
+}
+
+#contact form input,
+#contact form textarea {
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact form button {
+    padding: 0.7rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contact form botton:hover {
+    background-color: #555;
+}
